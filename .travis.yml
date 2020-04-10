@@ -1,5 +1,3 @@
-sudo: required
-
 services:
     - docker
 
@@ -12,3 +10,6 @@ script:
 
 language: generic
 
+dist: xenial
+
+os: linux
