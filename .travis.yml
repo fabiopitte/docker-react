@@ -12,9 +12,9 @@ deploy:
     edge: true
     provider: elasticbeanstalk
     access_key_id: 
-        secure: $AWS_ACCESS_KEY
+        secure: $access_key_id
     secret_access_key: 
-        secure: $AWS_SECRET_KEY
+        secure: $secret_access_key
 
     region: "us-west-2"
     app: "docker-react"
