@@ -16,7 +16,7 @@ deploy:
     region: "us-west-2"
     app: "docker-react-kubernetes"
     env: "DockerReactKubernetes-env"
-    bucket: ""
+    bucket: "elasticbeanstalk-us-west-2-746834350142"
     bucket_path: "docker-react-kubernetes"
     on:
         branch: master
